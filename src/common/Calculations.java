@@ -6,4 +6,8 @@ public class Calculations {
 		return a+b;
 	}
 	
+	private double subtract(double a, double b) {
+		return a>b?a-b:b-a;
+	}
+	
 }
