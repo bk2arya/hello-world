@@ -14,4 +14,8 @@ public class Calculations {
 		return a*b;
 	}
 	
+	private double divide(double a, double b) {
+		return a>b?a/b:b/a;
+	}
+	
 }
