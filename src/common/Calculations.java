@@ -10,4 +10,8 @@ public class Calculations {
 		return a>b?a-b:b-a;
 	}
 	
+	private double multiply(double a, double b) {
+		return a*b;
+	}
+	
 }
