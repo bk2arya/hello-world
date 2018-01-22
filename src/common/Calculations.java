@@ -18,4 +18,8 @@ public class Calculations {
 		return a>b?a/b:b/a;
 	}
 	
+	private double add(double a, double b, double c) {
+		return a+b+c;
+	}
+	
 }
